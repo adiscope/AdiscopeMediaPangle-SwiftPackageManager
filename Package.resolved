@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "adiscope-ios-pangle",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/adiscope/Adiscope-iOS-Pangle.git",
+      "state" : {
+        "revision" : "52167ad6c61b8d0c32af9686f53473f9350a3c6a",
+        "version" : "4.2.0"
+      }
+    },
+    {
+      "identity" : "applovin-max-swift-package",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git",
+      "state" : {
+        "revision" : "ed8cb1fddca69b5ea52b379deb7e57ccb8d901de",
+        "version" : "13.1.0"
+      }
+    }
+  ],
+  "version" : 2
+}
