@@ -28,8 +28,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AdiscopeMediaPangle",
-            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.3.0/AdiscopeMediaPangle.zip",
-            checksum: "937395191ca8f44acb746fa01339c09315a07aff0dc7f0f1fadf046ed7ba14b3"
+            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.4.1/AdiscopeMediaPangle.zip",
+            checksum: "cfac71b13e9fc41aa5f5ca19c8032d14f477bdb8ffbf9326634b4fdcce8c7c6d"
         ),
     ]
 )
