@@ -13,23 +13,21 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", exact: "13.1.0"),
-        .package(url: "https://github.com/adiscope/Adiscope-iOS-Pangle.git", exact: "4.2.1"),
+        .package(url: "https://github.com/bytedance/AdsGlobalPackage.git", exact: "7.4.1-release.1"),
     ],
     targets: [
         .target(
             name: "AdiscopeMediaPangleTarget",
             dependencies: [
                 .target(name: "AdiscopeMediaPangle"),
-                .product(name: "AdiscopeWithPangle", package: "Adiscope-iOS-Pangle"),
-                .product(name: "AppLovinSDK", package: "AppLovin-MAX-Swift-Package"),
+                .product(name: "AdsGlobalPackage", package: "AdsGlobalPackage"),
             ],
             path: "Sources"
         ),
         .binaryTarget(
             name: "AdiscopeMediaPangle",
-            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.4.1/AdiscopeMediaPangle.zip",
-            checksum: "cfac71b13e9fc41aa5f5ca19c8032d14f477bdb8ffbf9326634b4fdcce8c7c6d"
+            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.0.0/AdiscopeMediaPangle.zip",
+            checksum: "f62cf458f4aa4525f7838a16f26f84765a96ea5befc6ad3fa661249ac659a752"
         ),
     ]
 )
