@@ -13,21 +13,21 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/bytedance/AdsGlobalPackage.git", exact: "7.4.1-release.1"),
+        .package(url: "https://github.com/adiscope/Adiscope-iOS-Pangle.git", exact: "5.2.0"),
     ],
     targets: [
         .target(
             name: "AdiscopeMediaPangleTarget",
             dependencies: [
                 .target(name: "AdiscopeMediaPangle"),
-                .product(name: "AdsGlobalPackage", package: "AdsGlobalPackage"),
+                .product(name: "AdiscopeWithPangle", package: "Adiscope-iOS-Pangle"),
             ],
             path: "Sources"
         ),
         .binaryTarget(
             name: "AdiscopeMediaPangle",
-            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.0.2/AdiscopeMediaPangle.zip",
-            checksum: "14f24ba0db7138200d7873063ae2105a9b6f9befc14e4289bc58cc1699d6cc46"
+            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.2.0/AdiscopeMediaPangle.zip",
+            checksum: "e7b18b4cbab8427c736320bd3089e39dfde03b9d762cb246b5d1e81637a61128"
         ),
     ]
 )
