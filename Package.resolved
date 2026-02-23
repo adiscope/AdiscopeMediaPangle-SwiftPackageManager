@@ -1,12 +1,12 @@
 {
   "pins" : [
     {
-      "identity" : "adsglobalpackage",
+      "identity" : "adiscope-ios-pangle",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/bytedance/AdsGlobalPackage.git",
+      "location" : "https://github.com/adiscope/Adiscope-iOS-Pangle.git",
       "state" : {
-        "revision" : "f277b2d8f3e93ef910de8b77a3d81168f3819d3a",
-        "version" : "7.4.1-release.1"
+        "revision" : "148982cfb1d222affc48c4ff2cb5e84fefe9e721",
+        "version" : "5.2.0"
       }
     }
   ],
