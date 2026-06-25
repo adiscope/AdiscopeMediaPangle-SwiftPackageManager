@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/adiscope/Adiscope-iOS-Pangle.git",
       "state" : {
-        "revision" : "148982cfb1d222affc48c4ff2cb5e84fefe9e721",
-        "version" : "5.2.0"
+        "revision" : "d7672d6aabe5c195d6f6cd10847e3e1021e4aa74",
+        "version" : "5.4.0"
       }
     }
   ],
